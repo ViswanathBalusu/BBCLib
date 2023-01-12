@@ -27,6 +27,7 @@
 
 #include <linux/types.h>
 #include <sys/ioctl.h>
+#include <stdio.h>
 
 
 /* -- i2c.h -- */
