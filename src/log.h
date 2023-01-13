@@ -5,6 +5,8 @@
 #ifndef BBLASER_LOG_H
 #define BBLASER_LOG_H
 
+#include <stdio.h>
+
 extern void info(const char *message, ...);
 extern void debug(const char *message, ...);
 extern void error(const char *message, ...);

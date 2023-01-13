@@ -6,6 +6,8 @@
  */
 
 #include "../../src/gpio.h"
+#include <unistd.h>
+
 
 #define LEDGPIO 60;
 #define BUTTONGPIO 15;

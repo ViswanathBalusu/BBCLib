@@ -10,6 +10,8 @@
 
 #include <stdio.h>
 #include <stdint.h>
+#include <unistd.h>
+#include <fcntl.h>
 #include <linux/spi/spidev.h>
 
 typedef enum {

@@ -8,6 +8,8 @@
 #ifndef PWM_H_
 #define PWM_H_
 
+#include <string.h>
+
 #define PWM_PATH "/sys/devices/ocp.3/"
 typedef struct {
 	char *name;

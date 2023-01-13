@@ -8,6 +8,7 @@
 #include "gpio_example.h"
 #include "../../src/log.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /*
  * This example will open the gpio 60 port and flash the led 20 times.

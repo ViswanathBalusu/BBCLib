@@ -9,6 +9,7 @@
 #define UART_H_
 
 #include <stdio.h>
+#include <unistd.h>
 #include <termios.h>
 
 typedef enum {

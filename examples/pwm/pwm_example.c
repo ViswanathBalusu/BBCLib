@@ -6,6 +6,8 @@
  */
 
 #include "pwm_example.h"
+#include <stdlib.h>
+#include <unistd.h>
 #include "../../src/log.h"
 
 int pwmExample() {
@@ -41,7 +43,7 @@ int pwmExample() {
 					return -1;
 				}
 				debug("Wrote %d to pwm (%s)", i, pwm->name);
-				usleep(100000);
+				nanosleep(100000);
 			}
 			i = 10;
 		}
