@@ -13,7 +13,7 @@
 #include <signal.h>
 #include "i2c-dev.h"
 #include <sys/ioctl.h>
-#include <log.h>
+#include "log.h"
 #include <string.h>
 //#include <linux/i2c.h>
 //#include <linux/i2c-dev.h>
