@@ -43,7 +43,7 @@ int pwmExample() {
 					return -1;
 				}
 				debug("Wrote %d to pwm (%s)", i, pwm->name);
-				nanosleep(100000);
+				usleep(100000);
 			}
 			i = 10;
 		}
